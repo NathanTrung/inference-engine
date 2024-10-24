@@ -30,11 +30,11 @@ The engine processes a knowledge base of logical implications and a query to det
   ```
 <filename>: Path to the input file containing the knowledge base and query.
 <method>: The inference method to use, which can be one of the following:
-        - `tt: Truth Table`
-        - `fc: Forward Chaining`
-        - `bc: Backward Chaining`
+        tt: Truth Table
+        fc: Forward Chaining
+        bc: Backward Chaining
 
-Input Format
+### Input Format
 
 The input file should follow this format:
 
