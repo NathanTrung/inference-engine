@@ -27,12 +27,12 @@ The engine processes a knowledge base of logical implications and a query to det
 ### Command Line
   ```bash
   python iengine.py <filename> <method>
-  
+  ```
 <filename>: Path to the input file containing the knowledge base and query.
 <method>: The inference method to use, which can be one of the following:
-        tt: Truth Table
-        fc: Forward Chaining
-        bc: Backward Chaining
+        - `tt: Truth Table`
+        - `fc: Forward Chaining`
+        - `bc: Backward Chaining`
 
 Input Format
 
